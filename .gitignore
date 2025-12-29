@@ -1,24 +1,22 @@
-# Python virtual environment
-venv/
-.env/
-
 # Python cache
 __pycache__/
 *.pyc
 
-# Jupyter
-.ipynb_checkpoints/
+# Virtual environments
+venv/
+video_env/
+myenv/
+env/
+miniforge3/
 
-# Model files
-*.pt
-*.pth
-*.onnx
-*.safetensors
+# Large binaries
+*.dylib
+site-packages/
 
-# Logs & temp
-*.log
-*.tmp
+# Data outputs
+data/frames/
+data/videos/
 
-# OS files
+# macOS
 .DS_Store
-Thumbs.db
+
